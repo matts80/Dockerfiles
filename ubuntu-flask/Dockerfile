@@ -1,6 +1,6 @@
 # VERSION 0.01
 #
-# App + Webserver with python and Flask 0.10.1 
+# App + Webserver with python and Flask
 # on Ubuntu 14.04 LTS (Trusty Tahr)
 #
 
