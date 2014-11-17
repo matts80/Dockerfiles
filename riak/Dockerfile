@@ -7,4 +7,4 @@ MAINTAINER Matt Selph <matt.selph@gmail.com>
 
 RUN apt-get update && apt-get install -y curl
 RUN curl https://packagecloud.io/install/repositories/basho/riak/script.deb | bash
-RUN apt-get install riak=2.0.0-1
+RUN apt-get install -y riak=2.0.0-1
