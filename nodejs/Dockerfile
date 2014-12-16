@@ -1,6 +1,6 @@
 # VERSION 0.01
 #
-# node.js and express on debian:wheezy
+# node.js, express, and mysql on debian:wheezy
 
 FROM debian:wheezy
 
@@ -10,4 +10,6 @@ MAINTAINER Matt Selph <matt.selph@gmail.com> | github.com/mattselph
 RUN apt-get update && apt-get install -y curl
 RUN curl -sL https://deb.nodesource.com/setup | bash -
 RUN apt-get install -y nodejs
-RUN npm install express --save
+
+# install express and the mysql module
+RUN npm install express mysql --save
