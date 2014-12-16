@@ -10,3 +10,4 @@ MAINTAINER Matt Selph <matt.selph@gmail.com> | github.com/mattselph
 RUN apt-get update && apt-get install -y curl
 RUN curl -sL https://deb.nodesource.com/setup | bash -
 RUN apt-get install -y nodejs
+RUN npm install express --save
